@@ -12,7 +12,7 @@ Some stuff about network enums.
 nmap
 
 # Host Discovery 
-nmap -Pn -v <IP>/CIDR
+nmap -sn -v <IP>/CIDR
 # 1000 most common TCP ports on an IP range
 nmap -sV --open <IP>/CIDR
 # TCP Scan
@@ -22,6 +22,11 @@ sudo -sU -sS -sC -sV -oA <NAME>.udp <IP> -v
 # 1000 most common UDP ports on an IP range
 nmap -sU -sV --open <IP>/CIDR
 
+ TIPS  
+  - -p- : scan all ports
+  - -Pn : to scan hosts on Windows hosts
+  
+  
 masscan
 
 # Fast scan of a big subnet with selected open ports 
