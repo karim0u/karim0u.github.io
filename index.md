@@ -1,4 +1,4 @@
-## Pentest Tr1cks
+## Intro
 
 Some pentesting stuff about Windows/AD & Linux.
 
