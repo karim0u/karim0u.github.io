@@ -1,5 +1,4 @@
 
-## Intro
 
 Some pentesting stuff about Windows/AD & Linux.
 
