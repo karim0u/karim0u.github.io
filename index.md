@@ -43,10 +43,29 @@ Some stuff about Windows & AD pentesting.
 Network Analysis
 
 # Responder 
-
-# Basic mode
 responder -I <interface> -vrd
 
+```
+```markdown
+Enumeration 
 
+# No creds
+- enum4linux -a -u "" -p "" <DC IP> 
+- enum4linux -a -u "guest" -p "" <DC IP>
+ 
+- smbclient -U '%' -L //<DC IP> 
+- smbclient -U 'guest%' -L //
+ 
+- nmap -n -sV --script "ldap* and not brute" -p 389 <DC IP>
+
+# With Creds
+- impacket-GetADUsers.py -all -dc-ip <DC IP> <domain>/username
+- enum4linux -a -u <USER> -p <PASSWORD> <DC IP> 
 
 ```
+```markdown
+SMB 
+# List Shares
+impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
+
+
