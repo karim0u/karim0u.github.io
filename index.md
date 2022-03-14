@@ -13,12 +13,14 @@ nmap
 
 # Host Discovery 
 nmap -Pn -v <IP>/CIDR
-# 1000 most common ports on an IP range
+# 1000 most common TCP ports on an IP range
 nmap -sV --open <IP>/CIDR
 # TCP Scan
 sudo -sS -sC -sV -oA <FILENAME>.tcp <IP> -v
 # UDP Scan
 sudo -sU -sS -sC -sV -oA <NAME>.udp <IP> -v
+# 1000 most common UDP ports on an IP range
+nmap -sU -sV --open <IP>/CIDR
 
 masscan
 
