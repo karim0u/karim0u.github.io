@@ -46,8 +46,6 @@ Network Analysis
 
 # Basic mode
 responder -I <interface> -vrd
-# Active mode
-sudo -sU -sS -sC -sV -oA <NAME>.udp <IP> -v
 
 
 
