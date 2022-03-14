@@ -17,7 +17,7 @@ sudo -sS -sC -sV -oA <FILENAME>.tcp <IP> -v
 # UDP Scan
 sudo -sU -sS -sC -sV -oA <NAME>.udp <IP> -v
 
-**masscan**
+masscan
 
 # Host Discovery 
 masscan <IP>/CIDR --rate=10000 --ports <portsToScan> (ex. 80,443,445)
