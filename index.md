@@ -24,7 +24,7 @@ nmap -sU -sV --open <IP>/CIDR
 
 masscan
 
-# Host Discovery 
+# Fast scan of a big subnet with selected open ports 
 masscan <IP>/CIDR --rate=10000 --ports <portsToScan> (ex. 80,443,445)
 
 
@@ -44,10 +44,6 @@ responder -I <interface> -vrd
 # Active mode
 sudo -sU -sS -sC -sV -oA <NAME>.udp <IP> -v
 
-masscan
-
-# Host Discovery 
-masscan <IP>/CIDR --rate=10000 --ports <portsToScan> (ex. 80,443,445)
 
 
 ```
