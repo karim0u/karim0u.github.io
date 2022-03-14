@@ -4,7 +4,7 @@
 Some pentesting stuff about Windows/AD & Linux.
 
 
-### Network Enumeration
+## Network Enumeration
 
 Some stuff about network enums.
 
@@ -35,7 +35,7 @@ masscan <IP>/CIDR --rate=10000 --ports <portsToScan> (ex. 80,443,445)
 
 ```
 
-### Windows / Active Directory 
+## Windows / Active Directory 
 
 Some stuff about Windows & AD pentesting.
 
