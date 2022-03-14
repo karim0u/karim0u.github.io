@@ -10,6 +10,7 @@ Some stuff about network enums.
 
 ```markdown
 nmap
+----
 
 # Host Discovery 
 nmap -sn -v <IP>/CIDR
@@ -28,6 +29,7 @@ nmap -sU -sV --open <IP>/CIDR
   
   
 masscan
+-------
 
 # Fast scan of a big subnet with selected open ports 
 masscan <IP>/CIDR --rate=10000 --ports <portsToScan> (ex. 80,443,445)
