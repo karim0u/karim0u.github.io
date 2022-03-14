@@ -71,5 +71,5 @@ SMB
 # Explore Shares
 impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
  
-
+```
 
