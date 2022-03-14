@@ -61,11 +61,15 @@ Enumeration
 # With Creds
 - impacket-GetADUsers.py -all -dc-ip <DC IP> <domain>/username
 - enum4linux -a -u <USER> -p <PASSWORD> <DC IP> 
-
+ 
+# CrackMapExec
+- crackmapexec smb <DC IP> -u <USER> -p <PASSWORD> --groups --local-groups --loggedon-users --rid-brute --sessions --users --shares --pass-pol > cme_enum.txt
+ 
 ```
 ```markdown
 SMB 
-# List Shares
+# Explore Shares
 impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
+ 
 
 
