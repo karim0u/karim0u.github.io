@@ -20,7 +20,7 @@ nmap -sV --open <IP>/CIDR
 # TCP Scan
 nmap -sS -sC -sV -oA <FILENAME>.tcp <IP> -v
 # UDP Scan
-nmap -sU -sS -sC -sV -oA <NAME>.udp <IP> -v
+nmap -sU -sS -sC -sV -oA <FILENAME>.udp <IP> -v
 # 1000 most common UDP ports on an IP range
 nmap -sU -sV --open <IP>/CIDR
 
