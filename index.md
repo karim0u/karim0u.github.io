@@ -13,18 +13,22 @@ nmap
 
 # Host Discovery 
 nmap -sn -v <IP>/CIDR
-# 1000 most common TCP ports on an IP range
-nmap -sV --open <IP>/CIDR
+ 
 # TCP Scan
 nmap -sS -sC -sV -oA <FILENAME>.tcp <IP> -v
+ 
+# 1000 most common TCP ports on an IP range
+nmap -sV --open <IP>/CIDR
+ 
 # UDP Scan
 nmap -sU -sS -sC -sV -oA <FILENAME>.udp <IP> -v
+ 
 # 1000 most common UDP ports on an IP range
 nmap -sU -sV --open <IP>/CIDR
 
  TIPS  
   - -p- : scan all ports
-  - -Pn : to scan hosts on Windows hosts
+  - -Pn : to scan ports on Windows hosts
   
   
 masscan
