@@ -2,7 +2,8 @@
 
 Some pentesting stuff about Windows/AD & Linux.
 
-Wordlists : https://github.com/danielmiessler/SecLists
+Useful links 
+- Wordlists : https://github.com/danielmiessler/SecLists
 
 ## Network Enumeration
 
