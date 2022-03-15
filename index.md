@@ -74,3 +74,21 @@ impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
  
 ```
 
+## Web Application
+```markdown
+Enumeration 
+
+# dirsearch
+- dirsearch -u <URL> -r
+- dirb <URL> -r /usr/share/wordlists/dirb/common.txt
+ 
+ 
+# wordpress
+- wpscan --url <URL> (-e u : to enumerate WP users)
+
+
+
+#
+
+ ```
+
