@@ -98,7 +98,7 @@ Enumeration
  
 
 # Crypto
- ./testssl.sh -oA <filename> <URI>
+- ./testssl.sh -oA <filename> <URI>
 
  ```
 
