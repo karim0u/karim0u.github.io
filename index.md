@@ -91,8 +91,14 @@ Enumeration
 - wpscan --url <URL> (-e u : to enumerate WP users)
 
 
-
 #
+ 
+ 
+#
+ 
+
+# Crypto
+ ./testssl.sh -oA <filename> <URI>
 
  ```
 
