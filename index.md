@@ -5,6 +5,7 @@ Some pentesting stuff about Windows/AD & Linux.
 Useful links
 ------------
 - Wordlists : https://github.com/danielmiessler/SecLists
+- PrivEsc : https://github.com/carlospolop/PEASS-ng
 
 ## Network Enumeration
 
