@@ -104,5 +104,9 @@ Enumeration
 # Crypto
 - ./testssl.sh -oA <filename> <URI>
 
+ 
+# Reverse Shell
+- Spawn a tty shell : python -c 'import pty; pty.spawn("/bin/sh")'
+
  ```
 
