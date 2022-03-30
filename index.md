@@ -6,6 +6,7 @@ Useful links
 ------------
 - Wordlists : https://github.com/danielmiessler/SecLists
 - PrivEsc : https://github.com/carlospolop/PEASS-ng
+- PrivEsc : https://gtfobins.github.io/
 
 ## Network Enumeration
 
