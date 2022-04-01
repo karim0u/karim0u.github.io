@@ -7,6 +7,7 @@ Useful links
 - Wordlists : https://github.com/danielmiessler/SecLists
 - PrivEsc : https://github.com/carlospolop/PEASS-ng
 - PrivEsc : https://gtfobins.github.io/
+- Reverse Shells : https://www.revshells.com
 
 ## Network Enumeration
 
