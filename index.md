@@ -5,9 +5,11 @@ Some pentesting stuff about Windows/AD & Linux.
 Useful links
 ------------
 - Wordlists : https://github.com/danielmiessler/SecLists
-- PrivEsc : https://github.com/carlospolop/PEASS-ng
-- PrivEsc : https://gtfobins.github.io/
+- PrivEsc Linux & Windows : https://github.com/carlospolop/PEASS-ng
+- PrivEsc Linux : https://gtfobins.github.io/
+- PrivEsc Windows : https://lolbas-project.github.io/#
 - Reverse Shells : https://www.revshells.com
+- Windows / AD : https://wadcoms.github.io/
 
 ## Network Enumeration
 
