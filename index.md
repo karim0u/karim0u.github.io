@@ -131,8 +131,7 @@ Enumeration
 
 
 ```markdown
-Dump memory content with core dump
-
+# Dump memory content with core dump
 
 - run binary
 - CTRL+Z, so binary is paused
