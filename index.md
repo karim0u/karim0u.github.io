@@ -127,7 +127,7 @@ Enumeration
  ```
  ```markdown
  
- ## REVERSE
+REVERSE
  
 # Dump memory content with core dump
 - 1) run binary
