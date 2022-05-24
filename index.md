@@ -125,8 +125,10 @@ Enumeration
 - Spawn a tty shell : python -c 'import pty; pty.spawn("/bin/sh")'
 
  ```
- ## REVERSE
  ```markdown
+ 
+ ## REVERSE
+ 
 # Dump memory content with core dump
 - 1) run binary
 - 2) CTRL+Z, so binary is paused
@@ -137,6 +139,6 @@ Enumeration
 
 apport-unpack <crashReport> <destFolder>
 then strings destFolder/CoreDump
- 
- 
+
+ ```
 
