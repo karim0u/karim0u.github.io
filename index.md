@@ -125,4 +125,18 @@ Enumeration
 - Spawn a tty shell : python -c 'import pty; pty.spawn("/bin/sh")'
 
  ```
+ ## REVERSE
+ ```markdown
+# Dump memory content with core dump
+- 1) run binary
+- 2) CTRL+Z, so binary is paused
+- 3) ps to find pid
+- 4) kill -SIGSEGV <pid>
+- 5) fg then the binary crash
+- 6) look at /var/crash for the binary crash log
+
+apport-unpack <crashReport> <destFolder>
+then strings destFolder/CoreDump
+ 
+ 
 
