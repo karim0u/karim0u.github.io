@@ -99,9 +99,6 @@ KERBEROS
 ```
 
 ``markdown
-
- 
-```
  CREDZ
 
 # Dump credz remotely with DPAPI Key (account should be a local admin account)
