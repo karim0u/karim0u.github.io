@@ -11,7 +11,7 @@ Useful links
 - Reverse Shells : <https://www.revshells.com>
 - Windows / AD : <https://wadcoms.github.io/>
 - OSINT : <https://www.couverture-mobile.fr/>
-- Windows (Creds) : https://github.com/login-securite/DonPAPI
+- Windows (Creds) : <https://github.com/login-securite/DonPAPI>
 
 ## Network Enumeration
 
@@ -105,6 +105,15 @@ CREDZ
 - python3 DonPAPI.py --hashes <LM>:<NT> domain/user@target OR DonPAPI.py domain/user:passw0rd@target
  
 ```
+ ``markdown
+CREDZ
+
+# Net-NTLMv2 hash cracking
+-  hashcat -m 5600 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3t
+ 
+```
+
+
 
 
 ## Web Application
