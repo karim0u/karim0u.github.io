@@ -4,7 +4,8 @@ Some pentesting stuff about Windows/AD & Linux.
 
 Useful links
 ------------
-- Wordlists : <https://github.com/danielmiessler/SecLists>
+- Wordlists #1 : <https://github.com/danielmiessler/SecLists>
+- Wordlists #2 : <https://github.com/clem9669/wordlists> 
 - PrivEsc Linux & Windows : <https://github.com/carlospolop/PEASS-ng>
 - PrivEsc Linux : <https://gtfobins.github.io/>
 - PrivEsc Windows : <https://lolbas-project.github.io/#>
