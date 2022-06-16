@@ -111,30 +111,6 @@ KERBEROS
 ```
 
 
-
-
-## Web Application
-```markdown
-Enumeration 
-
-# dirsearch
-- dirsearch -u <URL> -r
-- dirb <URL> -r /usr/share/wordlists/dirb/common.txt
- 
- 
-# wordpress
-- wpscan --url <URL> (-e u : to enumerate WP users)
-
-
-
-# Crypto
-- ./testssl.sh -oA <filename> <URI>
-
- 
-# Reverse Shell
-- Spawn a tty shell : python -c 'import pty; pty.spawn("/bin/sh")'
-
- ```
  
  ## REVERSE
 
