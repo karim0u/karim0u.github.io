@@ -86,7 +86,7 @@ Enumeration
 SMB 
 # Explore Shares
 impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
-# Check SMB Signature 
+# Check SMB Signature on server
 Responder-runfinger -i <IP>/CIDR
 ```
 ```markdown
