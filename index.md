@@ -86,7 +86,8 @@ Enumeration
 SMB 
 # Explore Shares
 impacket-smbclient '<USER>:<PASSWORd>'@<DC IP>
- 
+# Check SMB Signature 
+Responder-runfinger -i <IP>/CIDR
 ```
 ```markdown
 KERBEROS 
