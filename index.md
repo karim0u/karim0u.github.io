@@ -111,9 +111,7 @@ KERBEROS
 ```
 
 
- 
  ## REVERSE
-
 
 ```markdown
 # Dump memory content with core dump
